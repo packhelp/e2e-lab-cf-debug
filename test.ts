@@ -42,7 +42,7 @@ test('Login sample test', async t => {
     .addRequestHooks([new UpdateZpkjAppHeaders(), logger])
     .navigateTo('https://app.stagingqa.dev.packhelp.com/sign_in');
   await t
-    // .debug()
+    .debug()
     .expect(Selector(`[e2e-target-name="confirm"]`).innerText)
     .eql('Sign in')
 
