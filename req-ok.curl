@@ -1,0 +1,8 @@
+curl $'http://192.168.98.243:53717/xBG5pHlPQ*5YpUUrmEM\u0021s\u0021utf-8/https://app.stagingqa.dev.packhelp.com/build/zpkj-app.24804fb7a7cae8e.js' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36' \
+  -H 'Accept: */*' \
+  -H 'Referer: http://192.168.98.243:53717/xBG5pHlPQ*5YpUUrmEM/https://app.stagingqa.dev.packhelp.com/sign_in' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  --compressed \
+  --insecure
